@@ -30,15 +30,15 @@ function onload() {
     if (hourNum > 17) { document.getElementById("5PM").setAttribute("class", "form-control userInput bg-danger") };
 
     //yellow (CURRENT HOUR)
-    if (hourNum === 9) { document.getElementById("9AM").setAttribute("class", "form-control userInput bg-warning") };
-    if (hourNum === 10) { document.getElementById("10AM").setAttribute("class", "form-control userInput bg-warning") };
-    if (hourNum === 11) { document.getElementById("11AM").setAttribute("class", "form-control userInput bg-warning") };
-    if (hourNum === 12) { document.getElementById("12PM").setAttribute("class", "form-control userInput bg-warning") };
-    if (hourNum === 13) { document.getElementById("1PM").setAttribute("class", "form-control userInput bg-warning") };
-    if (hourNum === 14) { document.getElementById("2PM").setAttribute("class", "form-control userInput bg-warning") };
-    if (hourNum === 15) { document.getElementById("3PM").setAttribute("class", "form-control userInput bg-warning") };
-    if (hourNum === 16) { document.getElementById("4PM").setAttribute("class", "form-control userInput bg-warning") };
-    if (hourNum === 17) { document.getElementById("5PM").setAttribute("class", "form-control userInput bg-warning") };
+    if (hourNum == 9) { document.getElementById("9AM").setAttribute("class", "form-control userInput bg-warning") };
+    if (hourNum == 10) { document.getElementById("10AM").setAttribute("class", "form-control userInput bg-warning") };
+    if (hourNum == 11) { document.getElementById("11AM").setAttribute("class", "form-control userInput bg-warning") };
+    if (hourNum == 12) { document.getElementById("12PM").setAttribute("class", "form-control userInput bg-warning") };
+    if (hourNum == 13) { document.getElementById("1PM").setAttribute("class", "form-control userInput bg-warning") };
+    if (hourNum == 14) { document.getElementById("2PM").setAttribute("class", "form-control userInput bg-warning") };
+    if (hourNum == 15) { document.getElementById("3PM").setAttribute("class", "form-control userInput bg-warning") };
+    if (hourNum == 16) { document.getElementById("4PM").setAttribute("class", "form-control userInput bg-warning") };
+    if (hourNum == 17) { document.getElementById("5PM").setAttribute("class", "form-control userInput bg-warning") };
 
     //GREEN (FUTURE HOURS)
     if (hourNum < 9) { document.getElementById("9AM").setAttribute("class", "form-control userInput bg-success") };
