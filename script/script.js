@@ -11,12 +11,11 @@ function onload() {
     //INPUT BOX TIME-DEPENDANT COLOR CHANGE
 
 
-    //to test background change function: uncomment line 15 and comment lines 18-19
+    //to test background change function: uncomment line 15 and comment lines 18
     //let hourNum = 11;
 
     //hourNum generated off of moment.js 24 hour time
-    let hourSTR = (moment().format('HH'));
-    let hourNum = JSON.parse(hourSTR);
+    let hourNum = (moment().format('HH'));
     console.log(hourNum);
 
     //red (PAST HOURS)
