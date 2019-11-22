@@ -135,7 +135,7 @@ function onload() {
         console.log(outputdata);
 
         function CInput() {
-            $("#saveBtn2").on("click", function () {
+            $("#saveBtn3").on("click", function () {
                 console.log("button clicked")
                 localStorage.setItem("input3", "") || "[]";
                 let input = document.getElementById('11AM').value;
@@ -166,7 +166,7 @@ function onload() {
         console.log(outputdata);
 
         function DInput() {
-            $("#saveBtn2").on("click", function () {
+            $("#saveBtn4").on("click", function () {
                 console.log("button clicked")
                 localStorage.setItem("input4", "") || "[]";
                 let input = document.getElementById('12PM').value;
@@ -197,7 +197,7 @@ function onload() {
         console.log(outputdata);
 
         function EInput() {
-            $("#saveBtn2").on("click", function () {
+            $("#saveBtn5").on("click", function () {
                 console.log("button clicked")
                 localStorage.setItem("input5", "") || "[]";
                 let input = document.getElementById('1PM').value;
@@ -228,7 +228,7 @@ function onload() {
         console.log(outputdata);
 
         function FInput() {
-            $("#saveBtn2").on("click", function () {
+            $("#saveBtn6").on("click", function () {
                 console.log("button clicked")
                 localStorage.setItem("input6", "") || "[]";
                 let input = document.getElementById('2PM').value;
@@ -259,7 +259,7 @@ function onload() {
         console.log(outputdata);
 
         function GInput() {
-            $("#saveBtn2").on("click", function () {
+            $("#saveBtn7").on("click", function () {
                 console.log("button clicked")
                 localStorage.setItem("input7", "") || "[]";
                 let input = document.getElementById('3PM').value;
@@ -290,7 +290,7 @@ function onload() {
         console.log(outputdata);
 
         function HInput() {
-            $("#saveBtn2").on("click", function () {
+            $("#saveBtn8").on("click", function () {
                 console.log("button clicked")
                 localStorage.setItem("input8", "") || "[]";
                 let input = document.getElementById('4PM').value;
@@ -322,7 +322,7 @@ function onload() {
         console.log(outputdata);
 
         function IInput() {
-            $("#saveBtn2").on("click", function () {
+            $("#saveBtn9").on("click", function () {
                 console.log("button clicked")
                 localStorage.setItem("input9", "") || "[]";
                 let input = document.getElementById('5PM').value;
